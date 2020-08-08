@@ -1,0 +1,27 @@
+.firstRow th:first-child {
+    width: 3%;
+}
+
+.firstRow th:nth-child(2), .firstRow th:nth-child(3), .firstRow th:nth-child(5) {
+    width: 7%;
+}
+
+.firstRow th:nth-child(4) {
+    width: 12%;
+}
+
+.firstRow th:nth-child(6) {
+    text-align: center;
+}
+
+.secondRow th:nth-child(1) {
+    width: 10%;
+}
+
+.secondRow th:nth-child(2) {
+    width: 7%;
+}
+
+.secondRow th:nth-child(n+3) {
+    width: 4%;
+}

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchForm render after onChange 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    onChange={[Function]}
+    placeholder="Поиск"
+    value="125"
+  />
+  <button
+    className="button"
+  >
+    Найти
+  </button>
+</form>
+`;
+
+exports[`SearchForm should render (snapshot) 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    onChange={[Function]}
+    placeholder="Поиск"
+    value=""
+  />
+  <button
+    className="button"
+  >
+    Найти
+  </button>
+</form>
+`;

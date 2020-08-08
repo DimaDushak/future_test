@@ -1,0 +1,21 @@
+.container {
+    padding: 0 15px;
+}
+
+.flex {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.previousButton{
+    transform: rotate(-90deg);
+}
+
+.nextButton {
+    transform: rotate(90deg);
+}
+
+.addButton {
+    padding: 0 5px;
+}

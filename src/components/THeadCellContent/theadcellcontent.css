@@ -1,0 +1,12 @@
+.transform {
+    transform: rotate(180deg);
+}
+
+.text {
+    cursor: pointer;
+    float: left;
+}
+
+.text:hover {
+    text-decoration: underline;
+}

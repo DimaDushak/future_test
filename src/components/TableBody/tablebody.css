@@ -1,0 +1,13 @@
+.tableBody tr {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tableBody tr:hover {
+    background-color: rgb(181, 184, 184);
+    transition: background-color 0.3s;
+}
+
+.nothingFoundCell {
+    text-align: center;
+}
